@@ -1,32 +1,49 @@
-.topnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+@import "bootstrap";
 
-.topnav li {
-    float: left;
-}
-
-.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav li a:hover:not(.active) {
-    background-color: #111;
-}
-
-
-.topnav{
-    margin: -10px -8px 0px -10px;
-}
-
-.landing{
+.navbar{
+    background-color: black;
+    color: #18716e;
     
 }
+
+.navbar-brand{
+    font-family: 'metroregular';
+}
+
+
+.lgn-btn{
+    background-color: black;
+    color: #18716e;
+    border-color: #18716e;
+}
+
+.lgn-btn:hover{
+    cursor: pointer;
+}
+
+.landing {
+  background: image_url('splash3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 420px;
+
+}
+
+
+
+.welcome-box{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #f6ec3f;
+    padding: 5px;
+}
+
+
+
+
+
