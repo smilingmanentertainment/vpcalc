@@ -1,5 +1,19 @@
 @import "bootstrap";
 
+html {
+  position: relative;
+  min-height: 100%;    
+}
+
+body{
+    background: image_url('bg1.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
 .navbar{
     background-color: black;
     color: #18716e;
@@ -8,8 +22,17 @@
 
 .navbar-brand{
     font-family: 'metroregular';
+    
 }
 
+a.navbar-brand{
+    color: #18716e;
+}
+
+a.navbar-brand:hover {
+    color: #18716e;
+    text-decoration: none;
+}
 
 .lgn-btn{
     background-color: black;
@@ -28,6 +51,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 420px;
+  box-shadow: 2px 2px 8px black;
 
 }
 
@@ -43,7 +67,46 @@
     padding: 5px;
 }
 
+.info-box {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+}
 
+.info-pane {
+    margin-bottom: 25px;
+    width: 100%;
+    margin: auto;
 
+}
 
+.footer {
+    text-align: center;
+    background-color: black;
+    color: #18716e;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.pages {
+    margin:0 auto;
+    min-height:100%;
+    padding-bottom:-30px;
+    position: relative; 
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 

@@ -9,11 +9,23 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light justify-content-between"><a class="navbar-brand">VPCALC</a>
+    <nav class="navbar justify-content-between"><%= link_to 'VPCALC', root_path, class: 'navbar-brand' %>
       <div>
         <button class="btn lgn-btn my-2 my-sm-0" type="log-in">Login</button>
       </div>
     </nav>
-    <%= yield %>
+    <div class="pages">
+      <%= yield %>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Footer Nonsense</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
