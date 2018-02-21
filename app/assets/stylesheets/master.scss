@@ -17,8 +17,7 @@ body{
 
 .navbar{
     background-color: black;
-    color: #18716e;
-    
+    color: #18716e;    
 }
 
 .navbar-brand{
@@ -76,12 +75,13 @@ a.navbar-brand:hover {
     margin-top: 25px;
     box-shadow: 2px 2px 8px black;
     border-radius: 5px;
+
 }
 
 .info-pane {
-    margin-bottom: 25px;
     width: 100%;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -116,6 +116,30 @@ a:hover {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 25px;
+}
 
+.hand-box {
+    margin-left: 115px;
+    margin-top: 50px;
+
+    
+}
+
+.card-box {
+    border: 1px solid black;
+    border-radius: 2.8%;
+    width: 100.5px;
+    height: 140px;
+    background-color: green;
+    margin: 5px;
+
+}
+
+.calculate-btn {
+    background-color: green;
+    border: 1px solid black;
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
 }
 
