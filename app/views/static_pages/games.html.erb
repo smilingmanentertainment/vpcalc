@@ -1,3 +1,19 @@
 <div class="games-page">
-  <h1>hello world</h1>
+  <select id="drprojecttype" name="drprojecttype" class="form-control drop-down">
+    <option value="0">--Select Game--</option>
+    <option value="Adhoc">Game1</option>
+    <option value="Dedicated">Game2</option>
+    <option value="other">Game3</option>
+  </select>
 </div>
+
+<script>
+  if (projecttype == "FTE" || projecttype == "Retainer") {
+    $("#drprojecttype option[value='Dedicated']").attr("selected", "selected");
+  }
+  else {
+      // $("#drprojecttype").val("Adhoc");
+      $('select[name^="drprojecttype"] option:selected').attr("selected", null);
+      $("#drprojecttype option[value='Adhoc']").attr("selected", "selected");
+  }
+</script>
